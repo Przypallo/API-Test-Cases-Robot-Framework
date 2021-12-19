@@ -1,8 +1,8 @@
 *** Settings ***
+# Documentation  https://api.coinpaprika.com/
 Library  SeleniumLibrary
 Library  Collections
 Library  RequestsLibrary
-Library  BuiltIn
 
 *** Variables ***
 ${URL}  https://api.coinpaprika.com/v1/
